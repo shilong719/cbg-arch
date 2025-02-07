@@ -25,4 +25,9 @@ public class SystemController {
         log.info("AppInfoConfiguration: {}", JSON.toJSONString(appInfoConfiguration));
         return appInfoConfiguration;
     }
+
+    @GetMapping("/health")
+    public int healthCheck() {
+        return 1;
+    }
 }
