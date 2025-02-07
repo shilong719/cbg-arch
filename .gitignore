@@ -1,0 +1,14 @@
+# Compiled class file
+**/*.class
+
+# Log file
+**/*.log
+
+**/*.iml
+**/*.ipr
+**/*.iws
+**/.DS_Store
+**/.idea/
+**/out/
+**/build/
+**/target/
